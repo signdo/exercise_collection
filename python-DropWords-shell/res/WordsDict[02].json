@@ -1,0 +1,242 @@
+{
+    "1": {
+        "definite": "\u660e\u786e\u7684, \u80af\u5b9a\u7684"
+    },
+    "2": {
+        "cautious": "\u5341\u5206\u5c0f\u5fc3\u7684, \u8c28\u614e\u7684"
+    },
+    "3": {
+        "nest": "\u5de2\u7a74"
+    },
+    "4": {
+        "domestic": "\u672c\u56fd\u7684, \u5bb6\u5ead\u7684"
+    },
+    "5": {
+        "chest": "\u80f8\u819b, \u7bb1\u5b50"
+    },
+    "6": {
+        "rebel": "\u53cd\u53db\u8005, \u53cd\u6297, \u53cd\u5bf9"
+    },
+    "7": {
+        "satisfactory": "\u4ee4\u4eba\u6ee1\u610f\u7684"
+    },
+    "8": {
+        "airline": "\u822a\u7a7a\u516c\u53f8, \u822a\u7ebf"
+    },
+    "9": {
+        "stem": "\u830e\u5e72, \u8d77\u6e90, \u5835\u4f4f"
+    },
+    "10": {
+        "coupon": "\u7968\u5238, \u4f18\u60e0\u5238"
+    },
+    "11": {
+        "render": "\u4f7f\u5f97, \u7ed9\u4e88, \u63d0\u4f9b"
+    },
+    "12": {
+        "object": "\u5b9e\u4f53, \u5bf9\u8c61, \u76ee\u6807, \u53cd\u5bf9"
+    },
+    "13": {
+        "gardener": "\u56ed\u4e01, \u82b1\u5320"
+    },
+    "14": {
+        "shrink": "\u8d77\u76b1, \u6536\u7f29, \u9000\u7f29"
+    },
+    "15": {
+        "parade": "\u6e38\u884c, \u68c0\u9605"
+    },
+    "16": {
+        "rumour": "\u8c23\u8a00"
+    },
+    "17": {
+        "establish": "\u5efa\u7acb, \u8bbe\u7acb, \u786e\u7acb"
+    },
+    "18": {
+        "kindness": "\u4ec1\u6148, \u597d\u610f"
+    },
+    "19": {
+        "breast": "\u4e73\u623f, \u80f8\u819b"
+    },
+    "20": {
+        "sticky": "\u7c98\u6027\u7684, \u6e7f\u70ed\u7684"
+    },
+    "21": {
+        "boost": "\u63d0\u9ad8, \u63a8\u52a8, \u6fc0\u52b1"
+    },
+    "22": {
+        "fund": "\u8d44\u91d1, \u57fa\u91d1, \u5b58\u6b3e"
+    },
+    "23": {
+        "incredible": "\u4e0d\u53ef\u4fe1\u7684, \u96be\u4ee5\u7f6e\u4fe1\u7684"
+    },
+    "24": {
+        "abroad": "\u5230\u56fd\u5916, \u5728\u4f20\u64ad"
+    },
+    "25": {
+        "stiff": "\u786c\u7684, \u4e0d\u7075\u6d3b\u7684, \u50f5\u786c\u7684"
+    },
+    "26": {
+        "rug": "\u5c0f\u5730\u6bef"
+    },
+    "27": {
+        "stimulate": "\u523a\u6fc0, \u6fc0\u52b1, \u6fc0\u53d1"
+    },
+    "28": {
+        "fame": "\u540d\u58f0, \u540d\u671b"
+    },
+    "29": {
+        "consume": "\u6d88\u8d39, \u5403\u5b8c"
+    },
+    "30": {
+        "accelerate": "\u4f7f\u52a0\u5feb, \u4f7f\u589e\u901f"
+    },
+    "31": {
+        "lightning": "\u7535\u5149, \u95ea\u7535"
+    },
+    "32": {
+        "sting": "\u523a\u75db"
+    },
+    "33": {
+        "bound": "\u6709\u4e49\u52a1\u7684, \u8df3\u8dc3, \u754c\u9650, \u675f\u7f1a"
+    },
+    "34": {
+        "rouse": "\u60ca\u8d77, \u5524\u8d77"
+    },
+    "35": {
+        "cultivate": "\u8015\u4f5c, \u79cd\u690d, \u57f9\u517b"
+    },
+    "36": {
+        "material": "\u6750\u6599, \u7d20\u6750"
+    },
+    "37": {
+        "personnel": "\u4eba\u5458, \u5458\u5de5"
+    },
+    "38": {
+        "display": "\u5c55\u89c8, \u663e\u793a"
+    },
+    "39": {
+        "particle": "\u7c92\u5b50, \u5fae\u7c92"
+    },
+    "40": {
+        "frog": "\u9752\u86d9, \u86e4\u87c6"
+    },
+    "41": {
+        "impression": "\u5370\u8c61, \u5370\u8bb0"
+    },
+    "42": {
+        "biology": "\u751f\u7269\u5b66, \u751f\u6001\u5b66"
+    },
+    "43": {
+        "drunk": "\u9189\u7684, \u9676\u9189\u7684"
+    },
+    "44": {
+        "barrier": "\u6805\u680f, \u5c4f\u969c"
+    },
+    "45": {
+        "stock": "\u539f\u6599, \u5e93\u5b58, \u50a8\u5907"
+    },
+    "46": {
+        "fisherman": "\u6e14\u6c11, \u6e14\u592b"
+    },
+    "47": {
+        "royal": "\u738b\u5ba4\u7684, \u7687\u5bb6\u7684"
+    },
+    "48": {
+        "barber": "\u7406\u53d1\u5e08"
+    },
+    "49": {
+        "stocking": "\u957f\u7b52\u889c"
+    },
+    "50": {
+        "delegate": "\u4ee3\u8868, \u59d4\u6d3e"
+    },
+    "51": {
+        "highlight": "\u5f3a\u8c03, \u7a81\u51fa"
+    },
+    "52": {
+        "depression": "\u6291\u90c1, \u6cae\u4e27, \u8427\u6761"
+    },
+    "53": {
+        "signature": "\u7f72\u540d, \u7b7e\u540d"
+    },
+    "54": {
+        "atmosphere": "\u5927\u6c14, \u6c14\u6c1b"
+    },
+    "55": {
+        "evaluate": "\u8bc4\u4ef7, \u8bc4\u4f30"
+    },
+    "56": {
+        "rescue": "\u8425\u6551, \u6551\u63f4"
+    },
+    "57": {
+        "personality": "\u4eba\u683c, \u4e2a\u6027"
+    },
+    "58": {
+        "latter": "\u540e\u8005\u7684, \u540e\u4e00\u534a\u7684"
+    },
+    "59": {
+        "parliament": "\u8bae\u4f1a, \u56fd\u4f1a"
+    },
+    "60": {
+        "input": "\u8f93\u5165"
+    },
+    "61": {
+        "partial": "\u90e8\u5206\u7684, \u4e0d\u516c\u5e73\u7684, \u504f\u8892\u7684"
+    },
+    "62": {
+        "loyalty": "\u5fe0\u8bda, \u5fe0\u5fc3"
+    },
+    "63": {
+        "calendar": "\u65e5\u5386"
+    },
+    "64": {
+        "overlook": "\u5ffd\u89c6, \u5bbd\u6055"
+    },
+    "65": {
+        "debate": "\u4e89\u8bba, \u8fa9\u8bba"
+    },
+    "66": {
+        "stoop": "\u5f2f\u8170, \u81ea\u8d2c, \u5815\u843d"
+    },
+    "67": {
+        "calf": "\u725b\u728a, \u5e7c\u5d3d"
+    },
+    "68": {
+        "masterpiece": "\u6770\u4f5c"
+    },
+    "69": {
+        "nude": "\u88f8\u4f53\u7684"
+    },
+    "70": {
+        "handicap": "\u7f3a\u9677, \u969c\u788d"
+    },
+    "71": {
+        "elite": "\u793e\u4f1a\u7cbe\u82f1, \u4e0a\u5c42\u96c6\u56e2"
+    },
+    "72": {
+        "naughty": "\u6dd8\u6c14\u7684, \u987d\u76ae\u7684"
+    },
+    "73": {
+        "deem": "\u8ba4\u4e3a, \u89c6\u4e3a"
+    },
+    "74": {
+        "ferry": "\u6e21\u8239, \u6e21\u8fd0"
+    },
+    "75": {
+        "jetlag": "\u65f6\u5dee\u53cd\u5e94"
+    },
+    "76": {
+        "badminton": "\u7fbd\u6bdb\u7403"
+    },
+    "77": {
+        "immune": "\u514d\u75ab\u7684, \u6709\u514d\u75ab\u529b\u7684"
+    },
+    "78": {
+        "logo": "\u5546\u6807, \u6807\u5fd7"
+    },
+    "79": {
+        "heartfelt": "\u8877\u5fc3\u7684, \u771f\u8bda\u7684"
+    },
+    "80": {
+        "ballet": "\u82ad\u857e\u821e, \u82ad\u857e\u821e\u5267"
+    }
+}
