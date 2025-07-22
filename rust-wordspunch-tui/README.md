@@ -8,5 +8,5 @@ A simple TUI program for memorizing English words, inspired by [AnkiDroid](https
 1. Connect Internet.
 2. Install `cargo`, `rustc`.
 3. Pull this Repo to local and `cd` into it.
-3. Run command `cargo build --release`.
-4. Run `./target/release/wordspunch --help` to get more info.
+4. Run command `cargo build --release`.
+5. Run `./target/release/wordspunch --help` to get more info.
