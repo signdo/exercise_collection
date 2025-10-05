@@ -2,6 +2,7 @@ use gettextrs::gettext;
 use tracing::{debug, info};
 
 use gtk::prelude::*;
+use adw::prelude::*;
 use adw::subclass::prelude::*;
 use gtk::{gdk, gio, glib};
 
@@ -111,11 +112,6 @@ impl ExampleApplication {
                 gtk::STYLE_PROVIDER_PRIORITY_APPLICATION,
             );
         }
-    }
-
-    fn authors() -> Vec<&'static str> {
-        // Authors are defined in Cargo.toml
-        env!("CARGO_PKG_AUTHORS").split(":").collect()
     }
 
     fn show_about_dialog(&self) {
