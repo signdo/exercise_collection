@@ -4,7 +4,6 @@ use tracing::{debug, info};
 use adw::{gtk, gdk, gio, glib};
 use adw::prelude::*;
 use adw::subclass::prelude::*;
-use gtk::prelude::*;
 
 use crate::config::{APP_ID, PKGDATADIR, PROFILE, VERSION};
 use crate::window::ExampleApplicationWindow;
