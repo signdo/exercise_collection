@@ -9,11 +9,11 @@
 <!-- FIXME Set project description -->
 <p>Write a GTK + Rust summary</p>
 
+The template fork from [GTK Rust Template](https://gitlab.gnome.org/World/Rust/gtk-rust-template). Changed for support Adwaita theme.
+
 ## Screenshots
 
-<div align="center">
-![screenshot](data/resources/screenshots/screenshot1.png)
-</div>
+![screenshot](data/resources/screenshots/screenshot.png)
 
 ## Hack on GTK Exercise Collection
 

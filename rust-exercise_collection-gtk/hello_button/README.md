@@ -9,3 +9,10 @@
     - 终端输出 INFO
     - 按键标签修改为「You do it!」
 
+## Screenshots
+
+![screenshot](data/resources/screenshots/screenshot.png)
+
+## Template
+
+The template fork from [GTK Rust Template](https://gitlab.gnome.org/World/Rust/gtk-rust-template). Changed for support Adwaita theme.
