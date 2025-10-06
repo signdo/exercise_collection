@@ -1,6 +1,6 @@
-use gtk::prelude::*;
+use adw::{gtk, gio, glib};
 use adw::subclass::prelude::*;
-use gtk::{gio, glib};
+use gtk::prelude::*;
 
 use crate::application::ExampleApplication;
 use crate::config::{APP_ID, PROFILE};

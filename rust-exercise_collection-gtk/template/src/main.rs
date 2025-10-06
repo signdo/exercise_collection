@@ -4,7 +4,7 @@ mod config;
 mod window;
 
 use gettextrs::{gettext, LocaleCategory};
-use gtk::{gio, glib};
+use adw::{gio, glib};
 
 use self::application::ExampleApplication;
 use self::config::{GETTEXT_PACKAGE, LOCALEDIR, RESOURCES_FILE};

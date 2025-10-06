@@ -21,11 +21,14 @@ menu primary_menu {
 }
 
 template $ExampleApplicationWindow: Adw.ApplicationWindow {
-  content: Adw.ToolbarView {
+  width-request: 360;
+  height-request: 360;
+
+  Adw.ToolbarView {
     [top]
     Adw.HeaderBar headerbar {
       [end]
-      MenuButton appmenu_button {
+      Gtk.MenuButton appmenu_button {
         icon-name: "open-menu-symbolic";
         menu-model: primary_menu;
         primary: true;
@@ -33,10 +36,10 @@ template $ExampleApplicationWindow: Adw.ApplicationWindow {
       }
     }
 
-    content: Label label {
+    Gtk.Label {
       label: _("Hello world!");
 
       styles ["title-header"]
-    };
-  };
+    }
+  }
 }
