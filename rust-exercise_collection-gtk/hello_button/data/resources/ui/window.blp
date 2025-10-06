@@ -1,0 +1,57 @@
+using Gtk 4.0;
+using Adw 1;
+
+menu primary_menu {
+  section {
+    item {
+      label: _("_Preferences");
+      action: "app.preferences";
+    }
+
+    item {
+      label: _("_Keyboard Shortcuts");
+      action: "win.show-help-overlay";
+    }
+
+    item {
+      label: _("_About GTK Exercise Collection");
+      action: "app.about";
+    }
+  }
+}
+
+template $ExampleApplicationWindow: Adw.ApplicationWindow {
+  width-request: 360;
+  height-request: 360;
+
+  Adw.ToolbarView {
+    [top]
+    Adw.HeaderBar {
+      [end]
+      Gtk.MenuButton {
+        icon-name: "open-menu-symbolic";
+        menu-model: primary_menu;
+        primary: true;
+        tooltip-text: _("Main Menu");
+      }
+    }
+
+    Adw.StatusPage {
+      title: _("Button");
+      description: _("Click button will happen something.");
+
+      Gtk.Box {
+        halign: center;
+        valign: center;
+
+        Gtk.Button btn {
+          label: _("Click me!");
+          halign: center;
+          valign: center;
+
+          styles ["pill", "suggested-action"]
+        }
+      }
+    }
+  }
+}
