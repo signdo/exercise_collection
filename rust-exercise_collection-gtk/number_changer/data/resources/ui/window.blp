@@ -1,0 +1,68 @@
+using Gtk 4.0;
+using Adw 1;
+
+menu primary_menu {
+  section {
+    item {
+      label: _("_Preferences");
+      action: "app.preferences";
+    }
+
+    item {
+      label: _("_Keyboard Shortcuts");
+      action: "win.show-help-overlay";
+    }
+
+    item {
+      label: _("_About GTK Exercise Collection");
+      action: "app.about";
+    }
+  }
+}
+
+template $ExampleApplicationWindow: Adw.ApplicationWindow {
+  width-request: 360;
+  height-request: 360;
+
+  Adw.ToolbarView {
+    [top]
+    Adw.HeaderBar {
+      [end]
+      Gtk.MenuButton {
+        icon-name: "open-menu-symbolic";
+        menu-model: primary_menu;
+        primary: true;
+        tooltip-text: _("Main Menu");
+      }
+    }
+
+    Adw.StatusPage {
+      title: _("Number Changer");
+      description: _("Click minus or plus button will happen something.");
+
+      Gtk.Box {
+        orientation: horizontal;
+        halign: center;
+        spacing: 20;
+
+        Gtk.Button btn_minus {
+          icon-name: "list-remove-symbolic";
+          styles ["circular", "opaque"]
+        }
+
+        Gtk.Label num_label {
+          label: _("0");
+          halign: center;
+          width-chars: 10;
+
+          styles ["card"]
+        }
+
+        Gtk.Button btn_plus {
+          icon-name: "list-add-symbolic";
+          styles ["circular", "opaque"]
+        }
+      }
+    }
+  }
+}

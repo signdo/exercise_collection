@@ -52,4 +52,5 @@ The [template](template/) fork from [GTK Rust Template](https://gitlab.gnome.org
 ## Sub Projects
 
 1. [Hello Button](hello_button/)
+2. [Number Changer](number_changer/)
 
