@@ -41,7 +41,7 @@ The [template](template/) fork from [GTK Rust Template](https://gitlab.gnome.org
     - org.gnome.Sdk
     - org.freedesktop.Sdk
     - org.freedesktop.Sdk.Extension.rust-stable
-    - org.freedesktop.Sdk.Extension.llvm19
+    - org.freedesktop.Sdk.Extension.llvm21
 
 7. Development environment required:
     - `flatpak-builder`
