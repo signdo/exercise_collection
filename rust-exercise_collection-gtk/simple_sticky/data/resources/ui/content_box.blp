@@ -1,0 +1,32 @@
+using Gtk 4.0;
+
+template $ContentBox : Gtk.Box {
+  orientation: vertical;
+  halign: center;
+  valign: end;
+  margin-start: 12;
+  margin-end: 12;
+
+  Gtk.Frame {
+    width-request: 350;
+    height-request: 440;
+
+    Gtk.ScrolledWindow {
+      vscrollbar-policy: automatic;
+      hscrollbar-policy: never;
+
+      Gtk.TextView {
+        bottom-margin: 15;
+        left-margin: 15;
+        right-margin: 15;
+        top-margin: 15;
+        editable: true;
+        cursor-visible: true;
+        wrap-mode: word;
+
+        buffer: Gtk.TextBuffer textview_buffer {
+        };
+      }
+    }
+  }
+}
