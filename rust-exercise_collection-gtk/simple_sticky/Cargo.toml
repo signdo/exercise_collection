@@ -8,6 +8,6 @@ lto = true
 
 [dependencies]
 gettext-rs = { version = "0.7", features = ["gettext-system"] }
-adw = { version = "0.8", package = "libadwaita", features = ["v1_8"] }
+adw = { version = "0.8", package = "libadwaita", features = ["v1_8", "gtk_v4_20", "gio_v2_80"] }
 tracing = "0.1.41"
 tracing-subscriber = "0.3"
