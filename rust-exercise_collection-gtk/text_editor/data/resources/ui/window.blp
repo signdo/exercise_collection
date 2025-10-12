@@ -1,0 +1,67 @@
+using Gtk 4.0;
+using Adw 1;
+
+menu primary_menu {
+  section {
+    item {
+      label: _("_Preferences");
+      action: "app.preferences";
+    }
+
+    item {
+      label: _("_Keyboard Shortcuts");
+      action: "win.show-help-overlay";
+    }
+
+    item {
+      label: _("_About GTK Exercise Collection");
+      action: "app.about";
+    }
+  }
+}
+
+template $ExampleApplicationWindow: Adw.ApplicationWindow {
+  width-request: 200;
+  height-request: 200;
+
+  Adw.ToolbarView {
+    [top]
+    Adw.HeaderBar {
+      [start]
+      Gtk.Button open_save_btn {
+        label: _("Open");
+        styles ["suggested-action"]
+      }
+
+      [end]
+      Gtk.MenuButton {
+        icon-name: "open-menu-symbolic";
+        menu-model: primary_menu;
+        primary: true;
+        tooltip-text: _("Main Menu");
+      }
+    }
+
+    Adw.ToastOverlay toast_overlay {
+      Gtk.Frame {
+        margin-bottom: 3;
+        margin-top: 3;
+        margin-start: 3;
+        margin-end: 3;
+
+        Gtk.ScrolledWindow {
+          Gtk.TextView {
+            left-margin: 10;
+            right-margin: 20;
+            top-margin: 20;
+            bottom-margin: 20;
+
+            buffer: Gtk.TextBuffer text_buffer {
+              enable-undo: true;
+            };
+          }
+        }
+      }
+    }
+  }
+}
